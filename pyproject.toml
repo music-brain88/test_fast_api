@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "test-fast-api"
+version = "0.1.0"
+description = ""
+authors = ["music-brain88 <music.brain88@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+uvicorn = "^0.30.3"
+fastapi = "^0.111.1"
+gunicorn = "^22.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
